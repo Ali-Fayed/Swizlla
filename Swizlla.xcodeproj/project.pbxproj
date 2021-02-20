@@ -9,23 +9,41 @@
 /* Begin PBXBuildFile section */
 		EA66328125E0C939006F3AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66328025E0C939006F3AF7 /* AppDelegate.swift */; };
 		EA66328325E0C939006F3AF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66328225E0C939006F3AF7 /* SceneDelegate.swift */; };
-		EA66328525E0C939006F3AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66328425E0C939006F3AF7 /* ViewController.swift */; };
 		EA66328825E0C939006F3AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66328625E0C939006F3AF7 /* Main.storyboard */; };
 		EA66328B25E0C939006F3AF7 /* Swizlla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA66328925E0C939006F3AF7 /* Swizlla.xcdatamodeld */; };
 		EA66328D25E0C93C006F3AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA66328C25E0C93C006F3AF7 /* Assets.xcassets */; };
 		EA66329025E0C93C006F3AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66328E25E0C93C006F3AF7 /* LaunchScreen.storyboard */; };
+		EA66329D25E0C9B3006F3AF7 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA66329825E0C9B1006F3AF7 /* song3.mp3 */; };
+		EA66329E25E0C9B3006F3AF7 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA66329925E0C9B2006F3AF7 /* song1.mp3 */; };
+		EA6632A025E0C9B3006F3AF7 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA66329B25E0C9B3006F3AF7 /* song2.mp3 */; };
+		EA6632AA25E0C9C8006F3AF7 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6632A425E0C9C8006F3AF7 /* PlayerViewController.swift */; };
+		EA6632AB25E0C9C8006F3AF7 /* PlayerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6632A525E0C9C8006F3AF7 /* PlayerConfiguration.swift */; };
+		EA6632AC25E0C9C8006F3AF7 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6632A325E0C9C8006F3AF7 /* Songs.swift */; };
+		EA6632AD25E0C9C8006F3AF7 /* SongsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6632A725E0C9C8006F3AF7 /* SongsModel.swift */; };
+		EA6632AE25E0C9C8006F3AF7 /* PlayerActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6632A925E0C9C8006F3AF7 /* PlayerActions.swift */; };
+		EA6632B025E0C9C8006F3AF7 /* SongsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6632A825E0C9C8006F3AF7 /* SongsTableView.swift */; };
+		EA6632C525E0CA5A006F3AF7 /* SongsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6632C425E0CA5A006F3AF7 /* SongsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA66327D25E0C939006F3AF7 /* Swizlla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swizlla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA66328025E0C939006F3AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA66328225E0C939006F3AF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA66328425E0C939006F3AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA66328725E0C939006F3AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA66328A25E0C939006F3AF7 /* Swizlla.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swizlla.xcdatamodel; sourceTree = "<group>"; };
 		EA66328C25E0C93C006F3AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA66328F25E0C93C006F3AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA66329125E0C93C006F3AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA66329825E0C9B1006F3AF7 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		EA66329925E0C9B2006F3AF7 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		EA66329B25E0C9B3006F3AF7 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		EA6632A325E0C9C8006F3AF7 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		EA6632A425E0C9C8006F3AF7 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		EA6632A525E0C9C8006F3AF7 /* PlayerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerConfiguration.swift; sourceTree = "<group>"; };
+		EA6632A725E0C9C8006F3AF7 /* SongsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsModel.swift; sourceTree = "<group>"; };
+		EA6632A825E0C9C8006F3AF7 /* SongsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableView.swift; sourceTree = "<group>"; };
+		EA6632A925E0C9C8006F3AF7 /* PlayerActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerActions.swift; sourceTree = "<group>"; };
+		EA6632C425E0CA5A006F3AF7 /* SongsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +76,73 @@
 		EA66327F25E0C939006F3AF7 /* Swizlla */ = {
 			isa = PBXGroup;
 			children = (
-				EA66328025E0C939006F3AF7 /* AppDelegate.swift */,
-				EA66328225E0C939006F3AF7 /* SceneDelegate.swift */,
-				EA66328425E0C939006F3AF7 /* ViewController.swift */,
+				EA6632CA25E0CC43006F3AF7 /* Resources */,
+				EA6632BC25E0CA07006F3AF7 /* Model */,
+				EA6632BE25E0CA11006F3AF7 /* View */,
+				EA6632C825E0CC2D006F3AF7 /* Controller */,
+				EA66329925E0C9B2006F3AF7 /* song1.mp3 */,
+				EA66329B25E0C9B3006F3AF7 /* song2.mp3 */,
+				EA66329825E0C9B1006F3AF7 /* song3.mp3 */,
+				EA66329125E0C93C006F3AF7 /* Info.plist */,
+			);
+			path = Swizlla;
+			sourceTree = "<group>";
+		};
+		EA6632BC25E0CA07006F3AF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA66328925E0C939006F3AF7 /* Swizlla.xcdatamodeld */,
+				EA6632A725E0C9C8006F3AF7 /* SongsModel.swift */,
+				EA6632A325E0C9C8006F3AF7 /* Songs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA6632BE25E0CA11006F3AF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				EA66328625E0C939006F3AF7 /* Main.storyboard */,
 				EA66328C25E0C93C006F3AF7 /* Assets.xcassets */,
 				EA66328E25E0C93C006F3AF7 /* LaunchScreen.storyboard */,
-				EA66329125E0C93C006F3AF7 /* Info.plist */,
-				EA66328925E0C939006F3AF7 /* Swizlla.xcdatamodeld */,
 			);
-			path = Swizlla;
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA6632BF25E0CA2E006F3AF7 /* Player View */ = {
+			isa = PBXGroup;
+			children = (
+				EA6632A425E0C9C8006F3AF7 /* PlayerViewController.swift */,
+				EA6632A525E0C9C8006F3AF7 /* PlayerConfiguration.swift */,
+				EA6632A925E0C9C8006F3AF7 /* PlayerActions.swift */,
+			);
+			path = "Player View";
+			sourceTree = "<group>";
+		};
+		EA6632C125E0CA40006F3AF7 /* Songs List View */ = {
+			isa = PBXGroup;
+			children = (
+				EA6632C425E0CA5A006F3AF7 /* SongsListViewController.swift */,
+				EA6632A825E0C9C8006F3AF7 /* SongsTableView.swift */,
+			);
+			path = "Songs List View";
+			sourceTree = "<group>";
+		};
+		EA6632C825E0CC2D006F3AF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA6632C125E0CA40006F3AF7 /* Songs List View */,
+				EA6632BF25E0CA2E006F3AF7 /* Player View */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA6632CA25E0CC43006F3AF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA66328025E0C939006F3AF7 /* AppDelegate.swift */,
+				EA66328225E0C939006F3AF7 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA66329025E0C93C006F3AF7 /* LaunchScreen.storyboard in Resources */,
+				EA66329E25E0C9B3006F3AF7 /* song1.mp3 in Resources */,
+				EA66329D25E0C9B3006F3AF7 /* song3.mp3 in Resources */,
+				EA6632A025E0C9B3006F3AF7 /* song2.mp3 in Resources */,
 				EA66328D25E0C93C006F3AF7 /* Assets.xcassets in Resources */,
 				EA66328825E0C939006F3AF7 /* Main.storyboard in Resources */,
 			);
@@ -140,10 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA66328525E0C939006F3AF7 /* ViewController.swift in Sources */,
+				EA6632AB25E0C9C8006F3AF7 /* PlayerConfiguration.swift in Sources */,
+				EA6632B025E0C9C8006F3AF7 /* SongsTableView.swift in Sources */,
 				EA66328125E0C939006F3AF7 /* AppDelegate.swift in Sources */,
+				EA6632AC25E0C9C8006F3AF7 /* Songs.swift in Sources */,
 				EA66328B25E0C939006F3AF7 /* Swizlla.xcdatamodeld in Sources */,
 				EA66328325E0C939006F3AF7 /* SceneDelegate.swift in Sources */,
+				EA6632AD25E0C9C8006F3AF7 /* SongsModel.swift in Sources */,
+				EA6632AE25E0C9C8006F3AF7 /* PlayerActions.swift in Sources */,
+				EA6632C525E0CA5A006F3AF7 /* SongsListViewController.swift in Sources */,
+				EA6632AA25E0C9C8006F3AF7 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
